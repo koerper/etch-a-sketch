@@ -20,7 +20,7 @@ h1 {
 
 .settingsContainer {
     width: '50px';
-    /* padding: 50px; */
+    padding: 50px;
 }
 
 .pixel {
@@ -28,5 +28,13 @@ h1 {
 }
 
 .pixel.hovered {
+    background-color: black;
+}
+
+.pixel.hovered-color {
+    background-color: black;
+}
+
+.pixel.hovered-shade {
     background-color: black;
 }
