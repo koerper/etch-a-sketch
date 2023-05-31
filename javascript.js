@@ -36,6 +36,7 @@ function colorPixel (state) {
                         this.style.backgroundColor = "#" + randomColor;
                         break;
                     case 'shade':
+                        
                         break;
                     case 'eraser':
                         break;
