@@ -13,8 +13,16 @@
         <h1 class="title">Etch-A-Sketch</h1>
         <div class="container">
             <div class="settingsContainer">
+                <div>
+                    <select id="selectState">
+                        <option value="black">Black</option>
+                        <option value="rainbow">Rainbow</option>
+                        <option value="shading">Shading</option>
+                        <option value="eraser">Eraser</option>
+                    </select>
+                </div>
                 <div class="resolutionSettings">
-                    Resolution
+                    <div>Resolution</div> 
                     <input type="range" min="8" max="100" value="16" class="slider" id="resolutionSlider">
                 </div>
                 <div id="resolutionOutput"></div>
@@ -23,6 +31,12 @@
                 </div> -->
             </div>
             <div class="canvas"></div>
+        </div>
+        <div class="footer">
+            <p> Copyright © <script> document.write(new Date().getFullYear()) </script> Tim Würger </p>
+            <!-- <a href="https://github.com/koerper" target="_blank">
+                <i class="fab fa-github" aria-hidden="true"></i>
+            </a> -->
         </div>
     </body>
 </html>

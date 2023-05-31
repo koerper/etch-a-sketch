@@ -1,7 +1,18 @@
+html {
+    position: relative;
+    min-height: 100%;
+}
+
 body {
     background-color: lightgray;
     text-align: center;
     font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 100px;
 }
 
 h1 {
@@ -11,6 +22,7 @@ h1 {
 .container {
     display: flex;
     justify-content: center;
+    min-height: 60%;
 }
 
 .canvas {
@@ -18,9 +30,22 @@ h1 {
     justify-content: center;
 }
 
+.footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    width: 100%;
+    padding: 10px;
+    margin-top: auto;
+}
+
 .settingsContainer {
-    width: '50px';
-    padding: 50px;
+    /* width: '50px';
+    padding: 50px; */
 }
 
 .pixel {
@@ -38,3 +63,5 @@ h1 {
 .pixel.hovered-shade {
     background-color: black;
 }
+
+
